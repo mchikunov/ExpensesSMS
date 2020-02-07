@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ExpensesSMS</string>
+    <string name="cancel">Cancelar</string>
+    <string name="set">Crear</string>
+    <string name="budgetDateRangeHelp">Seleccione la fecha de inicio para los informes</string>
+    <string name="SelCard">Seleccione la tarjeta:</string>
+    <string name="start_per">" Periodo de inicio"</string>
+    <string name="select_period">"Seleccione periodo "</string>
+    <string name="select_bank">"Seleccione bank "</string>
+    <string name="bank">bank</string>
+    <string name="start_creating">" Para comenzar a crear un informe bancario de SMS, ingrese la siguiente información, exactamente como aparece en SMS. Se puede configurar diferentes opciones a continuación entre los bancos. ESCANEAR una sola vez, después de ingresar la información a continuación. Las siguientes operaciones serán escaneadas automáticamente en la reapertura del programa"</string>
+    <string name="four_digits">Últimos 4 dígitos de la tarjeta.</string>
+    <string name="any_name">" Cualquier nombre de banco para el informe"</string>
+    <string name="add">Añadir</string>
+    <string name="set_sms">SMS desde: destinatario bancario (desde SMS). Una tarjeta en un banco</string>
+    <string name="operations">Operaciones</string>
+    <string name="daily">Diario</string>
+    <string name="weekly">Semanal</string>
+    <string name="monthly">Mensual</string>
+    <string name="yearly">Anual</string>
+    <string name="total">TOTAL</string>
+    <string name="from">desde:</string>
+    <string name="tot_date">Total hasta la fecha:</string>
+    <string name="average">Promedio:</string>
+    <string name="balance">Equilibrar:</string>
+    <string name="start_creatin">" Para crear un informe, complete la información que se muestra en el SMS. Se pueden seleccionar diferentes opciones a continuación para diferentes tarjetas o bancos. Escanee solo la primera vez, luego la información se actualizará cuando se vuelva a abrir el programa."</string>
+    <string name="sms_from">Nombre del banco como en la dirección de SMS</string>
+    <string name="fill_info">" Ir a la"</string>
+    <string name="fill_info1">configuración</string>
+    <string name="set_card">Tarjeta últimos cuatro dígitos en SMS. Se aplica si hay varias tarjetas en un banco.</string>
+    <string name="sel_del">Seleccionar y Eliminar</string>
+</resources>

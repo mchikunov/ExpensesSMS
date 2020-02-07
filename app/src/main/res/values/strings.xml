@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">ExpensesSMS</string>
+    <string name="cancel">Cancel</string>
+    <string name="set">Set</string>
+    <string name="budgetDateRangeHelp">Select start date for the reports</string>
+    <string name="start_per">Start period</string>
+    <string name="select_period">Select period:</string>
+    <string name="select_bank">Select bank:</string>
+    <string name="bank">bank</string>
+    <string name="any_name">Any short bank name for report</string>
+    <string name="add">Add</string>
+    <string name="set_sms">Set SMS From: bank addressee (exactly from SMS). Applies if one card in one bank</string>
+    <string name="set_card">Set Card last four digits in SMS.   Applies if multiple cards in one bank</string>
+    <string name="sel_del">Select and Delete</string>
+    <string name="SelCard">Select card:</string>
+    <string name="operations">Operations</string>
+    <string name="daily">Daily</string>
+    <string name="weekly">Weekly</string>
+    <string name="monthly">Monthly</string>
+    <string name="yearly">Yearly</string>
+    <string name="total">TOTAL</string>
+    <string name="from">from:</string>
+    <string name="tot_date">Total to date:</string>
+    <string name="average">Average:</string>
+    <string name="balance">Balance:</string>
+    <string name="sms_from">SMS addressee Name from SMS of your bank</string>
+    <string name="four_digits">Last four digits of card</string>
+    <string name="start_creating">" To create a report, please fill in the information as shown in the SMS. Different options below can be selected for different cards or banks. Scan only the first time, then the information is updated when the program is re-opened."</string>
+    <string name="fill_info">Fill info</string>
+    <string name="start_creatin">" To create a report, please fill in the information as shown in the SMS. Different options below can be selected for different cards or banks. Scan only the first time, then the information is updated when the program is re-opened."</string>
+    <string name="fill_info1">in Settings</string>
+</resources>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android= "http://schemas.android.com/apk/res/android"
+    xmlns:tools= "http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity"
+    android:background="@color/grey_color1"
+    android:windowSoftInputMode="stateAlwaysHidden"
+
+    >
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rel"
+        >
+
+        <TextView
+            android:id="@+id/first"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:text="@string/start_creating"
+            android:layout_centerHorizontal="true"
+            android:textColor="@drawable/soft_white_color"
+            android:focusable="true"
+            />
+
+        <EditText
+            android:id="@+id/txtInput"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/first"
+            android:hint="@string/four_digits"
+            android:textColorHint="@drawable/soft_white_color"
+            android:textColor="@color/green_color"
+            android:windowSoftInputMode="stateAlwaysHidden"
+            android:focusableInTouchMode="true"
+            />
+
+        <EditText
+            android:id="@+id/bankName"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/any_name"
+            android:layout_below="@id/txtInput"
+            android:textColorHint="@drawable/soft_white_color"
+            android:textColor="@color/green_color"
+            />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/first">
+
+        <Button
+            android:id="@+id/btAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add"
+            android:focusedByDefault="true"
+            />
+
+    </RelativeLayout>
+    </RelativeLayout>
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="80dp"
+       >
+
+        <RadioButton
+            android:id="@+id/radio_SMS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+
+            android:text="@string/set_sms"
+            android:textColor="@drawable/soft_white_color"/>
+
+        <RadioButton
+            android:layout_marginTop="7dp"
+            android:id="@+id/radio_Card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+
+            android:text="@string/set_card"
+            android:textColor="@drawable/soft_white_color"
+            android:checked="true"/>
+
+
+    </RadioGroup>
+
+    <ProgressBar
+        android:id="@+id/pb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/btScan"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scan"
+        android:textColor="@color/green_color"
+        android:layout_gravity="center"
+        />
+    <Button
+        android:id="@+id/btDel"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sel_del"
+        android:layout_below="@+id/btScan"
+        android:layout_gravity="right"
+        android:textSize="12dp"
+        />
+    <LinearLayout
+        android:layout_marginTop="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/light_grey_color">
+    <ListView
+        android:layout_marginTop="5dp"
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    </ListView>
+    </LinearLayout>
+
+
+</LinearLayout>

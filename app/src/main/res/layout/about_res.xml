@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android= "http://schemas.android.com/apk/res/android"
+    xmlns:tools= "http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity"
+    android:background="@drawable/grey_color"
+    android:windowSoftInputMode="stateAlwaysHidden"
+
+    >
+    <RelativeLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rel1"
+        >
+
+        <TextView
+            android:id="@+id/about_res"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+                android:text="Maxim Chikunov \n
+    Copyright © 2019 \n
+    For all suggestions, support and information feel free to contact on email \n
+    cmax5644@gmail.com"
+            android:textAlignment="center"
+
+            android:layout_centerHorizontal="true"
+            android:textColor="@drawable/soft_white_color"
+            android:focusable="true"
+            />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bit"
+        android:layout_alignParentTop="true"/>
+    </RelativeLayout>
+</LinearLayout>

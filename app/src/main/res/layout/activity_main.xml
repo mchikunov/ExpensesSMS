@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/black_formula"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:windowSoftInputMode="stateAlwaysHidden">
+
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/bankEnter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/SelCard"
+        android:textSize="13sp"
+        android:textColor="@drawable/soft_white_color"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/toolbar"/>
+
+    <TextView
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/startPeriod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/start_per"
+        android:textSize="12sp"
+        android:textAlignment="center"
+        android:textColor="@drawable/yellow_color"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/toolbar"/>
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="150dp"
+        android:layout_marginTop="7dp"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/light_grey_color"
+        android:spinnerMode="dialog"
+        android:layout_below="@id/bankEnter"
+        />
+
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/periodEnter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_period"
+        android:textSize="13sp"
+        android:layout_alignParentLeft="true"
+        android:textColor="@drawable/soft_white_color"
+        android:layout_below="@id/toolbar"
+        />
+
+    <Spinner
+        android:id="@+id/periods"
+        android:layout_marginTop="7dp"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/light_grey_color"
+        android:spinnerMode="dialog"
+        android:layout_below="@id/bankEnter"
+        />
+
+    <TextView
+        android:paddingTop="5dp"
+        android:layout_marginLeft="3dp"
+        android:id="@+id/total_and_average_expense_balance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_bank"
+        android:textSize="15sp"
+        android:gravity="left"
+        android:background="@color/grey_color"
+        android:textColor="@color/pink_color"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/spinner1"/>
+
+    <TextView
+        android:paddingTop="5dp"
+        android:layout_marginRight="3dp"
+        android:id="@+id/total_and_average_income_balance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_bank"
+        android:textSize="15sp"
+        android:gravity="right"
+        android:background="@color/grey_color"
+        android:textColor="@color/green_color"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/periods"/>
+
+    <TextView
+        android:paddingTop="5dp"
+        android:id="@+id/bank_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:textSize="16dp"
+        android:textColor="@color/green_color"
+        android:layout_below="@id/bankEnter"
+        android:layout_toRightOf="@id/periods"/>
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_marginTop="75dp"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_below="@id/periods"
+
+            android:dividerHeight="6dp"
+            />
+
+    <ListView
+        android:id="@+id/listIncome"
+        android:layout_marginTop="75dp"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/periods"
+
+        android:dividerHeight="6dp"
+        />
+
+
+</RelativeLayout>

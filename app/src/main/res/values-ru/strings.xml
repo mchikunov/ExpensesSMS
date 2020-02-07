@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SMS карт отчет</string>
+    <string name="cancel">Отмена</string>
+    <string name="set">ОК</string>
+    <string name="budgetDateRangeHelp">Выберите начальную дату отче</string>
+    <string name="SelCard">Выберите карту:</string>
+    <string name="start_per">Начало периода</string>
+    <string name="select_period">Выберите период:</string>
+    <string name="select_bank">Выберите банк</string>
+    <string name="bank">банк</string>
+    <string name="start_creating">Для создания отчета внесите пожалуйта информацию, как она показана в СМС сообщении. Разные опции ниже могут быть выбраны для разных карт или банков. Сканируйте только первый раз, далее информация обновляется при переоткрытии программы</string>
+    <string name="four_digits">Последние 4 цифры карты</string>
+    <string name="any_name">любое короткое имя банка для отчета</string>
+    <string name="add">Добавить</string>
+    <string name="set_sms">Поиск по СМС адресу из банка (адрес точно как в СМС). Если одна карта на банк</string>
+    <string name="set_card">Последние 4 цифры карты для поиска в СМС. Если больше одной карты на банк</string>
+    <string name="sel_del">Выбрать и Удалить</string>
+    <string name="operations">Операции</string>
+    <string name="daily">День</string>
+    <string name="weekly">Неделя</string>
+    <string name="monthly">Месяц</string>
+    <string name="yearly">Год</string>
+    <string name="total">TOTAL</string>
+    <string name="from">Начиная</string>
+    <string name="tot_date">"За период: "</string>
+    <string name="average">"Среднее: "</string>
+    <string name="balance">"Баланс: "</string>
+    <string name="start_creatin">Для создания отчета внесите пожалуйста информацию, как она показана в СМС. Разные опции ниже могут быть выбраны для разных карт или банков. Сканируйте только первый раз, далее информация обновляется при переоткрытии программы.</string>
+    <string name="sms_from">Имя банка как в адресе СМС</string>
+    <string name="fill_info">Ввод инфо</string>
+    <string name="fill_info1">в настройках</string>
+</resources>
